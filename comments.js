@@ -6,7 +6,7 @@ const express = require('express');
 const router = express.Router();
 
 // import comments controller
-const commentsCtrl = require('../controllers/comments');
+const commentsCtrl = require('../comments');
 
 // create a comment
 router.post('/api/comments', commentsCtrl.createComment);
